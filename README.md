@@ -1,11 +1,11 @@
-🚀 Hands-On Lab 1: Data Engineering Pipeline
-📝 Descripción del Proyecto
+# 🚀 Hands-On Lab 1: Data Engineering Pipeline
+# 📝 Descripción del Proyecto
 Este proyecto implementa un flujo de trabajo Serverless en AWS para el procesamiento de datos. El objetivo es automatizar la ingesta de archivos CSV y su transformación a formato JSON mediante AWS Lambda, almacenándolos en S3 y habilitando su consulta analítica a través de Amazon Athena.
 
-🏗️ Arquitectura
+# 🏗️ Arquitectura
 sample_users.csv ➔ S3 (Input) ➔ AWS Lambda ➔ S3 (Output) ➔ Amazon Athena ➔ SQL Queries
 
-⚙️ Configuración Técnica
+# ⚙️ Configuración Técnica
 Servicios: AWS Lambda, S3, Athena, IAM.
 
 Bucket de Entrada: bld-tseed-workshop-input-semillero-2026-q2-z
